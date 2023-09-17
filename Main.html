@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyclos</title>
+    <link rel="stylesheet" href="./Main.css">
+</head>
+<body>
+    <h1>Buscador de Trabajo</h1>
+    <div id="Contenedor" class="Contenedorprincipal">
+        
+        <!-- Input para ingresar la categoría -->
+        <div class="IngresaCat">
+            <input type="text" id="categoriaInput" placeholder="Ingresa una categoría">
+        </div>
+
+        <!-- Botón para buscar -->
+        <div class="botonbuscar">
+            <button onclick="buscarTrabajo()">Buscar</button>
+        </div>
+    </div>
+
+    <!-- Resultado de la búsqueda -->
+    <div class="Contenedortrabajos">
+        <div id="resultado"></div>
+    </div>
+
+    <script src="Main.js"></script>
+
+</body>
+</html>

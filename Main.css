@@ -1,0 +1,35 @@
+
+body {
+    display: grid;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+.Contenedorprincipal {
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 600px;
+    display: grid;
+    justify-self: center;
+    grid-template-columns: 2fr 4.5fr;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Contenedortrabajos {
+    margin-top: 20px;
+    padding: 20px;
+    width: 600px;
+    display: grid;
+    justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
